@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateModel : MonoBehaviour
 {
-    // Variables for rotating the object
+    // Variables for rotating the ob
     public Transform objectToRotate;   
     private Vector2 swipeDirection;
     private float rotationSpeed = 0.2f;
