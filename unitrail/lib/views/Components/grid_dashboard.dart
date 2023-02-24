@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:unitrail/views/my_classes.dart';
 import 'package:unitrail/views/navigate.dart';
+import 'package:unitrail/views/search_classes.dart';
 import 'package:unitrail/views/settings.dart';
 
 // ignore: must_be_immutable
@@ -8,8 +10,12 @@ class GridDashboard extends StatelessWidget {
       title: "Navigate",
       routeName: MaterialPageRoute(builder: (context) => NavigateScreen()));
 
-  Items item2 = Items(title: "My Classes", routeName: null);
-  Items item3 = Items(title: "Search Classrooms", routeName: null);
+  Items item2 = Items(
+      title: "My Classes",
+      routeName: MaterialPageRoute(builder: (context) => ClassesScreen()));
+  Items item3 = Items(
+      title: "Search Classrooms",
+      routeName: MaterialPageRoute(builder: (context) => SearchScreen()));
   Items item4 = Items(title: "Calendar (Beta)", routeName: null);
   Items item5 = Items(
       title: "Settings",
