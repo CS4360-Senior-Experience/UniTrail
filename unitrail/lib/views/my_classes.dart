@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:unitrail/views/Components/grid_dashboard.dart';
 
-class SettingsScreen extends StatelessWidget {
-  const SettingsScreen({super.key});
+class ClassesScreen extends StatelessWidget {
+  const ClassesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
