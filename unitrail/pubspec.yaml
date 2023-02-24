@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_unity_widget: ^2022.2.0
+  cupertino_icons: ^1.0.2
   english_words: ^4.0.0
   provider: ^6.0.0
   google_fonts: 2.1.1
